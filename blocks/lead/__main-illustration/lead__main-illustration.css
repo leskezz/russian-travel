@@ -1,0 +1,8 @@
+.lead__main-illustration {
+width: 928px;
+height: 580px;
+margin-bottom: 10px;
+background-image: url(../../../images/lead__train.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
