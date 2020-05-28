@@ -1,0 +1,10 @@
+@import url(./__article/intro__article.css);
+@import url(./__digits/intro__digits.css);
+@import url(./__list-digits/intro__list-digits.css);
+@import url(./__span-accent/intro__span-accent.css);
+@import url(./__text/intro__text.css);
+@import url(./__title/intro__title.css);
+
+.intro {
+    padding-top: 92px;
+}
