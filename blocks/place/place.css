@@ -10,7 +10,7 @@
 .place {
     padding-bottom: 80px;
     display: grid;
-    grid-template-columns: 440px 456px;
+    grid-template-columns: 440px 1fr;
     grid-template-areas:
     "title website"
     "image article";
