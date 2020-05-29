@@ -1,0 +1,11 @@
+@import url(./__columns/footer__columns.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__link/footer__link.css);
+@import url(./__links/footer__links.css);
+@import url(./__link/_no-margin/footer__link_no-margin.css);
+
+.footer {
+    max-width: 928px;
+    margin: 0 auto;
+    padding: 92px 0 24px;
+}
