@@ -1,5 +1,25 @@
 @import url(./__link/cover__link.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__title/cover__title.css);
 
 .cover {
-    padding-top: 87px;
+    padding-top: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        padding-top: 87px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        padding-top: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        padding-top: 64px;
+    }
 }
