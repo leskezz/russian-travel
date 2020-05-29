@@ -1,4 +1,24 @@
 .lead__image {
-    width: 928px;
-    margin: 0 auto;
+    width: 984px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+@media screen and (max-width: 1080px) {
+    .lead__image {
+        width: calc(100% - 96px);
+    }
+}
+
+@media screen and (max-width: 864px) {
+    .lead__image {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        width: 100%;
+        margin: 0 0 8px;
+    }
 }

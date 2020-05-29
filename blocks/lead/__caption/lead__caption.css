@@ -1,9 +1,41 @@
 .lead__caption {
-    margin: 0;
+    width: 984px;
+    margin: 0 auto;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
     line-height: 1.4;
     letter-spacing: 0.15em;
     text-transform: uppercase;
+    text-align: left;
+}
+
+@media screen and (max-width: 1080px) {
+    .lead__caption {
+        width: calc(100% - 96px);
+    }
+}
+
+@media screen and (max-width: 816px) {
+    .lead__caption {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__caption {
+        width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 336px) {
+    .lead__caption {
+        width: 288px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__caption {
+        width: calc(100% - 32px);
+    }
 }

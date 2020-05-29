@@ -6,22 +6,21 @@
 .header {
     height: 52px;
     width: calc(100% - 96px);
-    padding: 28px 48px 0;
+    padding-top: 28px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin: 0 auto;
 }
 
 @media screen and (max-width:768px) {
     .header {
-        padding: 28px 24px 0;
         width: calc(100% - 48px);
     }
 }
 
 @media screen and (max-width: 320px) {
     .header {
-        padding: 16px 16px 0;
         width: calc(100% - 32px);
     }
 }
