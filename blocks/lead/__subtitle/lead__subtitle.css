@@ -21,3 +21,9 @@
         width: 288px;
     }
 }
+
+@media screen and (max-width: 319px) {
+    .lead__subtitle {
+        width: calc(100% - 32px);
+    }
+}
