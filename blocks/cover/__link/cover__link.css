@@ -4,14 +4,13 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    max-width: 1184px;
+    max-width: 100%;
     min-height: 740px;
     background-image: url(../../../images/cover__background.png);
     background-size: cover;
     background-position: center center;
     text-decoration: none;
     z-index: 1;
-    margin: 0 auto;
     color: #FFFFFF;
 }
 
