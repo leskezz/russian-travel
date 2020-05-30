@@ -22,6 +22,12 @@
     }
 }
 
+@media screen and (max-width: 1023px) {
+    .footer {
+        padding-top: 88px;
+    }
+}
+
 @media screen and (max-width: 972px) {
     .footer {
         max-width: calc(100% - 48px);
@@ -31,18 +37,18 @@
 @media screen and (max-width: 768px) {
     .footer {
         max-width: 720px;
-        padding-top: 88px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .footer {
+        padding-top: 64px;
+    }
+}
+
 
 @media screen and (max-width: 752px) {
     .footer {
         max-width: calc(100% - 32px);
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .footer {
-        padding-top: 64px;
     }
 }
