@@ -5,13 +5,18 @@
     font-size: 30px;
     line-height: 1.2;
     text-align: center;
-    margin: 0 auto 54px;
+    margin: 0 auto 64px;
+}
+
+@media screen and (max-width: 1270px) {
+    .lead__subtitle {
+        margin-bottom: 56px;
+    }
 }
 
 @media screen and (max-width: 751px) {
     .lead__subtitle {
         width: calc(100% - 128px);
-
     }
 }
 
@@ -20,5 +25,6 @@
         max-width: 288px;
         font-size: 16px;
         line-height: 20px;
+        margin-bottom: 40px;
     }
 }

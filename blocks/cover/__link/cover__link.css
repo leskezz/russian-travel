@@ -6,7 +6,7 @@
     justify-content: center;
     width: 100%;
     min-height: 740px;
-    background-image: url(../../../images/cover__background.png);
+    background-image: url(../../../images/cover__background.jpg);
     background-size: cover;
     background-position: center center;
     text-decoration: none;
@@ -24,6 +24,7 @@
     background: #2A2C2F;
     opacity: 0.3;
     z-index: -1;
+    transition: opacity .3s ease-out;
 }
 
 .cover__link:hover.cover__link:before {
@@ -32,18 +33,23 @@
 
 @media screen and (max-width: 1279px) {
     .cover__link {
-        width: 100%;
         min-height: 645px;
     }
 }
 
-@media screen and (max-width: 1031px) {
+@media screen and (max-width: 1020px) {
     .cover__link {
         min-height: 480px;
     }
 }
 
 @media screen and (max-width: 767px) {
+    .cover__link {
+        min-height: 375px;
+    }
+}
+
+@media screen and (max-width: 599px) {
     .cover__link {
         min-height: 282px;
     }

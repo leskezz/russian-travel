@@ -6,6 +6,7 @@
     margin-right: 18px;
     color: #FFFFFF;
     text-decoration: none;
+    transition: opacity .3s ease-out;
 }
 
 .header__lang-link:last-child {

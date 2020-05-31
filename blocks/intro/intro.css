@@ -1,4 +1,3 @@
-@import url(./__article/intro__article.css);
 @import url(./__digits/intro__digits.css);
 @import url(./__list-digits/intro__list-digits.css);
 @import url(./__span-accent/intro__span-accent.css);
@@ -19,6 +18,5 @@
     .intro {
         padding-top: 64px;
         width: calc(100% - 32px);
-        margin: 0 auto;
     }
 }
