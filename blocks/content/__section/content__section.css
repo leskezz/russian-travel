@@ -29,12 +29,8 @@
 
 @media screen and (max-width: 767px) {
     .content__section {
-        max-width: 720px;
+        max-width: 100%;
     }
 }
 
-@media screen and (max-width: 752px) {
-    .content__section {
-        max-width: calc(100% - 32px);
-    }
-}
+
