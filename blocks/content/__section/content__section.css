@@ -1,12 +1,6 @@
 .content__section {
-    max-width: calc(100% - 296px);
+    max-width: 984px;
     margin: 0 auto;
-}
-
-@media screen and (max-width: 1279px) {
-    .content__section {
-        max-width: 984px;
-    }
 }
 
 @media screen and (max-width: 1080px) {

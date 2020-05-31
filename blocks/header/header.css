@@ -4,12 +4,18 @@
 @import url(./__lang-link/_active/header__lang-link_active.css);
 
 .header {
-    width: calc(100% - 96px);
+    max-width: 1184px;
     padding-top: 28px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 1279px) {
+    .header {
+        max-width: calc(100% - 96px);
+    }
 }
 
 @media screen and (max-width:1023px) {
